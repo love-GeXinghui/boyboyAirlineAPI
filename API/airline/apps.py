@@ -1,9 +1,9 @@
 from django.apps import AppConfig
 
 
-class AirlineConfig(AppConfig):
+class findFlightConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
-    name = "airline"
+    name = "findflight"
 
 class paymentMethodConfig(AppConfig):
     default_auto_field = "django.db.models.BigAutoField"
